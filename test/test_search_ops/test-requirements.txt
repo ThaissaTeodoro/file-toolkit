@@ -1,0 +1,22 @@
+# Dependências para executar os testes do search_ops
+
+# Framework de testes
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-xdist>=3.0.0  # Para execução paralela
+pytest-mock>=3.10.0  # Para mocking
+
+# PySpark e dependências
+pyspark>=3.3.0
+py4j>=0.10.9
+
+# Para análise de cobertura
+coverage>=6.0.0
+
+# Utilities para testes
+faker>=18.0.0  # Para geração de dados fake
+hypothesis>=6.0.0  # Para property-based testing
+
+# Formatação e linting (opcional)
+black>=22.0.0
+flake8>=5.0.0
