@@ -1,0 +1,46 @@
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "file-toolkit"
+version = "0.1.0"
+description = "file-toolkit is a complete suite of utilities for manipulating, organizing, and monitoring files and directories in Python. It offers functions for copying, moving, synchronizing, compressing, hashing, advanced searching, temporary file management, and much more, with a focus on productivity, security, and auditing."
+
+authors = [
+  {name="Thaissa Ferreira", email="thaissa.teodoro@hotmail.com"}
+]
+
+dependencies = [
+  "logging-metrics>=0.1.2"
+]
+
+requires-python = ">=3.8"
+readme = "README.md"
+license = "MIT"
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0.0",
+  "pytest-cov>=4.0.0",
+  "pytest-xdist>=3.0.0",
+  "pytest-mock>=3.10.0",
+  "py4j>=0.10.9",
+  "coverage>=6.0.0",
+  "faker>=18.0.0",
+  "hypothesis>=6.0.0",
+  "black>=22.0.0",
+  "flake8>=5.0.0"
+]
+
+
+
